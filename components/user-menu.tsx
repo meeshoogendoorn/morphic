@@ -20,8 +20,8 @@ import {
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
 
-import { ThemeMenuItems } from './theme-menu-items'
 import { Button } from './ui/button'
+import { ThemeMenuItems } from './theme-menu-items'
 
 interface UserMenuProps {
   user: User

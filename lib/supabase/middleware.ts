@@ -42,7 +42,6 @@ export async function updateSession(request: NextRequest) {
 
   // Define public paths that don't require authentication
   const publicPaths = [
-    '/', // Root path
     '/auth', // Auth-related pages
     '/share', // Share pages
     '/api' // API routes
